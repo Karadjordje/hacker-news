@@ -1,0 +1,30 @@
+@import '../../../../css/breakpoints';
+
+.news-list {
+    background: #fff;
+    margin: 0;
+    flex: 1;
+    padding-bottom: 40px;
+
+    @include media-breakpoint-up(sm) {
+        margin: 0 20px;
+        font-size: 20px;
+    }
+
+    &__spinner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        svg {
+            width: 100px;
+            height: auto;
+        }
+    }
+
+    .paging {
+        margin-top: 40px;
+        margin-left: 56px;
+    }
+}

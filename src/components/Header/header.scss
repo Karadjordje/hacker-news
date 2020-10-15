@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 40px;
+    background: #f58c23;
+
+    &__title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    &__btn {
+        cursor: pointer;
+        background: none;
+        border: none;
+        height: 30px;
+        padding: 0;
+
+        &__icon {
+            height: 100%;
+            width: auto;
+        }
+    }
+}

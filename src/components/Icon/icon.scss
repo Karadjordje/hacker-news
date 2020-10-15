@@ -1,0 +1,18 @@
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: calc(1em + 4px);
+
+    @supports (display: grid) {
+        flex-basis: auto;
+    }
+
+    svg {
+        height: 1em;
+    }
+
+    .st0 {
+        fill: currentColor;
+    }
+}
